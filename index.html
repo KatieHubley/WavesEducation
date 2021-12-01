@@ -239,7 +239,7 @@ font-style: normal;
 		footer {
 			font-size: 85%;
 			font-weight: 400;
-			background-color:darkcyan;
+			background-color:rgba(61,146,156,0.92);
 			color: white;
 			padding: 5%;
 			width: 90%;
@@ -307,7 +307,8 @@ font-style: normal;
 			font-style: normal;
 			font-weight: 300;
 			text-align: center;
-			mix-blend-mode: luminosity;
+			color: white;
+			line-height: 3em;
 		}
 		.welcoming a:link, .welcoming a:visited {
 			font-weight: bold;
@@ -336,12 +337,6 @@ font-style: normal;
 			font-style: italic;
 		}
 		
-		footer {
-			/*background-image: url("linesbg.svg");*/
-			background-blend-mode: darken;
-
-			background-size: 300%;
-		}
 		
 		.footerimg {
 			width: 20%;
@@ -485,7 +480,7 @@ font-style: normal;
 			margin-left: auto;
 			margin-right: auto;
 			background-blend-mode: multiply;
-			background-color:rgba(80,80,80,1.00);
+			background-color:cadetblue;
 			width: 300px;
 			height: 300px;
 			border-radius: 150px;
@@ -494,17 +489,31 @@ font-style: normal;
 			border: 3px solid black;
 		}
 		
+		.welcomingimg {
+			
+			
+			
+}
+		.welcoming h4 {
+			line-height: .7em;
+		}
+		
 		.accessibleimg {
 			background-image: url("discord.jpg");
 			float: right;
-			background-position: center;
+			background-position: 20px 50px;
+		}
+		
+		.accessible h4 {
+			line-height: 1.5em;
 		}
 		
 		.variedimg {
 			background-image: url("one-on-one.jpg");
+		
 
 		}
-		
+	
 		.efficientimg {
 			background-image: url("one-on-one.jpg");
 			background-image: url("one-sheet.jpg");
@@ -515,11 +524,27 @@ font-style: normal;
 		
 		.specificimg {
 			background-image: url("mockups.jpg");
-		}
+			background-color:rgba(0,76,90,1.00);}
 		
 		.welcoming, .accessible, .varied, .efficient, .specific {
-			padding: 2%;
-			border-bottom: solid 2px black;
+			padding:3%;
+			
+		}
+		
+		.wave {
+			margin-left: -10%;
+			mix-blend-mode: multiply;
+		
+		}
+		
+		.wave img {
+			width: 130%;
+			height: auto;
+		}
+		
+		.startwave {
+		
+			background-size: cover;
 		}
 	</style>
 </head>
@@ -627,13 +652,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	</section>
-	<h4 style="text-align: center; font-size: 1.5em; margin:0;">Notes on <span class="studio" style="font-size: 1.5em;">Waves &nbsp;</span></h4>
+	<div class="wave">
+    <img src="wavy-lines5.svg" alt=""/> </div>
+	<div class="startwave">
+	<h4 style="text-align: center; font-size: 1.5em; margin:0; margin-top: 20px;">Notes on <span class="studio" style="font-size: 1.5em;">Waves &nbsp;</span></h4>
+		</div>
 	<br class="clear">
+
 	<section class="welcoming">
 	
 		
 		
-		<div class="welcomingimg"><h4 class="green" style="font-family: calgary-script-ot, sans-serif;">Welcoming</h4></div>
+		<div class="welcomingimg"><h4 style="font-family: calgary-script-ot, sans-serif;">Welcoming</h4></div>
 		
 <p><strong>Welcoming </strong>class environments help all types of learners, and contribute to a more community-based learning style.</p>
 		<p>Nothing can replace conversation, discussion, and personal engagement with students. My hope is that by designing inclusive materials, students feel more comfortable reaching out to me, and enganging in conversation about the class and their academic paths at Montgomery College.</p>
@@ -643,9 +673,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	
 	</section>
+	<div class="wave">
+    <img src="wavy-lines.svg" alt=""/> </div>
 	
 	<section class="accessible" >
-		<div class="accessibleimg"> <h4 class="seagreen" style="font-family: calgary-script-ot, sans-serif;"> Accessible</h4></div>
+		<div class="accessibleimg"> <h4 style="font-family: calgary-script-ot, sans-serif;"> Accessible</h4></div>
 	 
 		<p><strong>Accessible</strong> class materials for all students are at the core of our responsibilty as educators. Utilizing tools like running PDFs through <a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Acrobat Accessibility Checker,</a> Marking up content in <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">HTML</a>, publishing online with <a href="https://www.youtube.com/embed/JeUMb0OgUGg">GitHub Pages</a>, and Recording Lectures and uploading to <a href="https://docs.microsoft.com/en-us/stream/portal-autogenerate-captions">Stream for Auto-Captioning</a>  are essential accessibility tools for my teaching in Media Arts.</p>
 		
@@ -658,70 +690,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<br class="clear">
 
 	</section>
-	
+	<div class="wave">
+    <img src="wavy-lines2.svg" alt=""/> </div>
 	<section class="varied">
-		<div class="variedimg">  <h4 class="seablue" style="font-family: calgary-script-ot, sans-serif;">Varied</h4></div>
+		<div class="variedimg">  <h4 style="font-family: calgary-script-ot, sans-serif;">Varied</h4></div>
 		
-		<p>I've worked to include visual references for processes also covered in class recordings and walkthroughs. </p>
-		
-		<p>In order to simulate the computer lab environment, I schedule individual Zoom meetings with students, where they share their screen and together we review class concepts as they apply them directly to their individual projects. </p>
 		<p>
 		Some students participate during live sessions, though some are unable to share video and audio, and may have learning styles that make <em>online,</em> live interaction in a group context difficult for them. </p>
 		
+		<p>In order to simulate the computer lab environment, I schedule individual Zoom meetings with students, where they share their screen and together we review class concepts as they apply them directly to their individual projects. </p>
+		
+		<p>Efforts for Varied Class Instruction and Materials: </p>
 		<ul>
 		<li>Front-facing Class Information and Materials via Class Website. Mobile-friendly, modular, linear, showing class production in sequence.</li>
 		<li>Blackboard Class Materials and Learning Management for class login details, assignment submission and feedback, and more detailed resource provision.</li>
 		<li>Padlet for easy sharing of class work</li>
-		<li>Multimedia Design Displaying Class Projects</li>
-		<li>Walkthroughs and Demonstrations</li>
-		<li>Recorded Class Sessions Posted to Stream Channel with Captioning.</li>
+		<li>Video Showcases for Class Projects via Vimeo Channel </li>
+		<li>Live Walkthroughs and Demonstrations</li>
+			<li>Student Screen Sharing During Class Sessions</li>
+		<li>Recorded Class Sessions Posted to Stream Channel with Captioning Enabled.</li>
 		<li>One-on-one Zoom Meetings with Student Screen Sharing</li>
+			<li>Text-based Online Discussions</li>
+			<li>Optional Live discussions and review sessions for Asynchronous Distance Learning Classes</li>
 		</ul>
 			<br class="clear">
 
 	</section>
-		
+		<div class="wave">
+    <img src="wavy-lines3.svg" alt=""/> </div>
 	<section class="efficient">
-		<div class="efficientimg"> <h4 class="indigo" style="font-family: calgary-script-ot, sans-serif;"> Efficient</h4></div>
+		<div class="efficientimg"> <h4 style="font-family: calgary-script-ot, sans-serif;"> Efficient</h4></div>
 	 
-		<p>Students have the option of watching <strong>class recordings</strong> if they miss class, are distracted during class, or want to re-watch lectures at a later time.</p> <p>In pre-recorded classes, video is sped up for processes that don't require concentration or were already covered; <strong>Editing</strong> is used to help with the ease and flow of the class.</p><p>Whenever possible, <strong>assignments are connected</strong> so that students can save time; for example for my GDES 140 Introduction to Animation class, students can use the walk cycle assignment in their final animation (and plan for that action as part of their story/storyboard assignment.) Instead of designing distinct characters for the walk cycle and final animation, students can save time by utilizing the same character design for more than one class requirement.</p>
+		<p>Students have the option of watching <strong>class recordings</strong> if they miss class, are distracted during class, or want to re-watch lectures at a later time.</p> <p>In pre-recorded classes, video is sped up for processes that don't require concentration or were already covered; <strong>Editing</strong> is used to help with the ease and flow of the class.</p><p>Whenever possible, <strong>assignments are connected</strong> so that students can save time; for example in GDES 140 Introduction to Animation class, students can use the walk cycle assignment in their final animation (and plan for that action as part of their story/storyboard assignment.) Instead of designing distinct characters for the walk cycle and final animation, students can save time by utilizing the same character design for more than one class requirement.</p>
 			<br class="clear">
 
 	</section>
-	
+	<div class="wave">
+    <img src="wavy-lines4.svg" alt=""/> </div>
 	<section class="specific">
-		<div class="specificimg"><h4 class="slateviolet" style="font-family: calgary-script-ot, sans-serif;">Specific</h4></div>
+		<div class="specificimg"><h4 style="font-family: calgary-script-ot, sans-serif;">Specific</h4></div>
 	  
 		<p>Specific and detailed feedback is provided for student assignments.</p><p>For me, feedback is a way of listening, and of paying attention; I believe it is one of the most important and caring thing we can do as instructors. This also helps to reitterate a learning partnership, rather than one of traditional exposition. </p><p>Examples of class feedback for Graphic Design for the Web available on this Padlet: <a href="https://padlet.com/katherinehubley/w27mee0zmiva7erk">Padlet for Fall 2021 UI Design Assignment &amp; Planning. </a></p><p>For a larger context for the class, visit <a href="http://www.studyweb.technology">studyweb.technology,</a> where this Padlet, and other class resources and vidoes are linked. </p>
 			<br class="clear">
 
 	</section>
-	
+	<div class="wave">
+    <img src="wavy-lines5.svg" alt=""/> </div>
 
 	
-	<!--<section class="links">
-		<h4>GRAPHICS &amp; RESOURCES </h4>
-		<h5>Differences are Celebrated Here Text:</h5>
-		<ul>
-		<li><a href="#">HTML &amp; inline CSS for Template (copy from preview in browser window, paste in email.) </a></li>
-		<li><a href="#">Transparent PNG</a></li>
-		<li><a href="#">SVG</a></li>
-		</ul>
-		<h5>Inclusive Graphic</h5>
-		<ul>
-		<li><a href="#">Transparent PNG</a></li>
-		<li><a href="#">SVG</a></li>
-		</ul>
-		
-	</section>-->
 
 </div>
 		<section class="padlet" style="margin-top: 50px;">
 		
-		<h4 style="margin-top: 50px; text-align: center; font-size: 1.5em;"> <span class="studio" style="font-size: 1.5em;">Sharing &nbsp;</span>inclusive materials</h4>
+		<h4 style="margin-top: 50px; text-align: center; font-size: 1.5em;"> <span class="studio" style="font-size: 1.5em;">Sharing &nbsp;</span>Inclusive Materials</h4>
 		<div class="padlet-embed" styl e="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/t09h8z64grdyp5c9" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
 	
 	</section>	
+	
+	<section class="next">
+		<h4 style="margin-top: 50px; text-align: center; font-size: 1.5em;"> <span class="studio" style="font-size: 1.5em;">Seeking Collaboration &nbsp;</span>for Future Inclusive Materials</h4>
+		
+		<div class="indesignnext" style="background-color: white; padding: 2%;">
+			<p>I'm re-imagining my Publication Design Class to include Social Justice themed topics for class exercises and assignments where content is provided for students. For some techncial aspects of designing and producing publications where it's necessary to work with a large amount of content—for example when setting up the layout for a book and generating an automatic Table of Contents—Providing content for students is necessary.</p>
+			
+			<p>Please let me know if you have ideas for content students could work with in this class that include topics of Anti-Racism, Social Justice, Inclusivity or Cultural Awareness. Ideal content is not yet designed, or needs to be re-designed. </p>
+			
+				<p>The skills learned in this class help students prepare for a career in Graphic Deisgn, with a variety of delivery methods and publication types covered, as well as typical publication design workflows.   </p>
+				
+				<p>This class also provides avenues for creative expression for students, and a way for them to share topics important to them. The Below showcase includes work from students on topics of their choice: </p>
+			
+				
+			<div class="showcase">
+
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/showcase/8757542/embed" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+				
+			 
+				<p>Students will continue to select their own content for the Magazine Assignment and App Prototype Design Assignment showcased above.</p>
+				
+				<p>Shifting the focus to Social Justice for content provided to students for some Exercises and Assignments <em>(Specifically, Introduction Exercise, Newsletter Design, Brochure Exercise, and Book Layout with Automated Table of Contents)</em> is a way to show students what is important to me, and to set an example of designing for social impact.</p>
+	
+		</div>  
+		
+		</div>
+
+			
+	</section>
 	<footer>
 		
 		
