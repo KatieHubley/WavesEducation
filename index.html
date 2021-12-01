@@ -302,7 +302,13 @@ font-style: normal;
 			line-height: 1.2em;
 			margin-bottom: .7em;
 		}
-		
+		.welcoming h4, .accessible h4, .varied h4, .efficient h4, .specific h4 {
+			font-size: 2em;
+			font-style: normal;
+			font-weight: 300;
+			text-align: center;
+			mix-blend-mode: luminosity;
+		}
 		.welcoming a:link, .welcoming a:visited {
 			font-weight: bold;
 			color: #61aa5a;
@@ -349,7 +355,7 @@ font-style: normal;
 			background-image: url("portrait2.svg");
 			border: 4px solid black;
 			border-radius: 112px;
-			mix-blend-mode:overlay;
+			mix-blend-mode: hard-light;
 			
 			
 			
@@ -463,6 +469,53 @@ font-style: normal;
 		.clear {
 			clear: both;
 		}
+		
+		.w-letter {
+				font-family: calgary-script-ot, sans-serif;
+			font-size: 11vw;
+			padding-right: 50px;
+			line-height: .8em;
+			float: left;
+		}
+		
+		.welcomingimg,.accessibleimg, .variedimg, .efficientimg,.specificimg  {
+			background-image: url("welcoming.jpg");
+			background-size: cover;
+			background-position: center;
+			margin-left: auto;
+			margin-right: auto;
+			background-blend-mode: multiply;
+			background-color:rgba(80,80,80,1.00);
+			width: 300px;
+			height: 300px;
+			border-radius: 150px;
+			float: left;
+			margin: 10px;
+			border: 3px solid black;
+		}
+		
+		.accessibleimg {
+			background-image: url("discord.jpg");
+			float: right;
+			background-position: center;
+		}
+		
+		.variedimg {
+			background-image: url("one-on-one.jpg");
+
+		}
+		
+		.efficientimg {
+			background-image: url("one-on-one.jpg");
+			background-image: url("one-sheet.jpg");
+			background-position: bottom;
+			float: right;
+			background-size: 300%;
+		}
+		
+		.specificimg {
+			background-image: url("mockups.jpg");
+		}
 	</style>
 </head>
 
@@ -537,7 +590,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<li>Inclusive Syllabus Design PDF Example:</li>
 		</ul>
 			
-			<div class="syllabus">
+		  <div class="syllabus">
 			<div class="pages"><img src="Fall_2021_syllabus_212_Page_1.jpg" alt="page1 Syllabus"/></div>
 				<div class="pages">
 					<img src="Fall_2021_syllabus_212_Page_2.jpg" alt="Page 2 Syllabus"/>
@@ -564,26 +617,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		
 			
 			</div>
-		</div></div>
+	  </div></div>
 	<!--	<i class="fas fa-toggle-on"></i>-->
 
 
 	</section>
-	<h4 style="text-align: center; font-size: 1.5em; margin:0;">Welcoming, Accessible, Varied, Efficient, Specific— <span class="studio" style="font-size: 1.5em;">Waves &nbsp;</span></h4>
+	<h4 style="text-align: center; font-size: 1.5em; margin:0;">Notes on <span class="studio" style="font-size: 1.5em;">Waves &nbsp;</span></h4>
+	<br class="clear">
 	<section class="welcoming">
-		<h4 class="green" style="text-transform: uppercase;"><!--<i class="fas fa-water"></i> -->Welcoming</h4>
-		
-		<p>Welcoming class environments help all types of learners, and contribute to a more community-based learning style.</p>
-		<p>Nothing can replace conversation, discussion, and personal engagement with students.  </p><p>My hope is that by designing inclusive materials, students feel more comfortable reaching out to me, and enganging in conversation about the class and their academic paths at Montgomery College.</p>
 	
 		
 		
+		<div class="welcomingimg"><h4 class="green" style="font-family: calgary-script-ot, sans-serif;">Welcoming</h4></div>
+		
+<p>Welcoming class environments help all types of learners, and contribute to a more community-based learning style.</p>
+		<p>Nothing can replace conversation, discussion, and personal engagement with students. My hope is that by designing inclusive materials, students feel more comfortable reaching out to me, and enganging in conversation about the class and their academic paths at Montgomery College.</p>
+	
+		
+			<br class="clear">
+
 	
 	</section>
 	
 	<section class="accessible" >
-		<h4 class="seagreen" style="text-transform: uppercase;"><!--<i class="fas fa-water"></i>--> Accessible</h4>
-		<p>Ensuring class materials are accessible for all students is at the core of our responsibilty as educators. Utilizing tools like running PDFs through <a href="#">Acrobat Accessibility Checker,</a> Marking up content in <a href="#">HTML</a>, publishing online with <a href="#">GitHub Pages</a>, and Recording Lectures and uploading to <a href="#">Stream for Auto-Captioning</a>  are essential accessibility tools for my teaching in Media Arts.</p>
+		<div class="accessibleimg"> <h4 class="seagreen" style="font-family: calgary-script-ot, sans-serif;"> Accessible</h4></div>
+	 
+		<p>Ensuring class materials are accessible for all students is at the core of our responsibilty as educators. Utilizing tools like running PDFs through <a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Acrobat Accessibility Checker,</a> Marking up content in <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">HTML</a>, publishing online with <a href="https://www.youtube.com/embed/JeUMb0OgUGg">GitHub Pages</a>, and Recording Lectures and uploading to <a href="https://docs.microsoft.com/en-us/stream/portal-autogenerate-captions">Stream for Auto-Captioning</a>  are essential accessibility tools for my teaching in Media Arts.</p>
 		
 		<p>Especially during the pandemic, I've been asking, <span class="ital">how can I be more Accessible to students?</span>  <span class="ital">Not more often </span> accessible, but rather accessible in ways that meet students where they are? For my work in Media Arts, I've found the following useful in communicating with my students:</p> 
 		
@@ -591,11 +650,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<li><strong>Google Voice</strong> line just for students so they can text instead of email.</li>
 		<li><strong>Discord</strong> to communicate with students and share ideas.</li></ul>
 		
-	
+		<br class="clear">
+
 	</section>
 	
 	<section class="varied">
-		<h4 class="seablue" style="text-transform: uppercase;"><!--<i class="fas fa-water"></i> -->Varied</h4>
+		<div class="variedimg">  <h4 class="seablue" style="font-family: calgary-script-ot, sans-serif;">Varied</h4></div>
 		
 		<p>I've worked to include visual references for processes also covered in class recordings and walkthroughs. </p>
 		
@@ -612,16 +672,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<li>Recorded Class Sessions Posted to Stream Channel with Captioning.</li>
 		<li>One-on-one Zoom Meetings with Student Screen Sharing</li>
 		</ul>
+			<br class="clear">
+
 	</section>
 		
 	<section class="efficient">
-		<h4 class="indigo" style="text-transform: uppercase;"><!--<i class="fas fa-water"></i>--> Efficient</h4>
-		<p>Students have the option of watching recordings if they miss class.</p> <p>In pre-recorded classes, video is sped up for processes that don't require concentration or were already covered; Editing is used to help with the ease and flow of the class.</p><p>Whenever possible, assignments are connected so that students can save time; for example for Intro to Animation, students can use the walk cycle assignment in their final animation (and plan for that action as part of their story/storyboard assignment.) Instead of designing distinct characters for the walk cycle and final animation, they save time on that step.</p>
+		<div class="efficientimg"> <h4 class="indigo" style="font-family: calgary-script-ot, sans-serif;"> Efficient</h4></div>
+	 
+		<p>Students have the option of watching <strong>class recordings</strong> if they miss class, are distracted during class, or want to re-watch lectures at a later time.</p> <p>In pre-recorded classes, video is sped up for processes that don't require concentration or were already covered; <strong>Editing</strong> is used to help with the ease and flow of the class.</p><p>Whenever possible, <strong>assignments are connected</strong> so that students can save time; for example for my GDES 140 Introduction to Animation class, students can use the walk cycle assignment in their final animation (and plan for that action as part of their story/storyboard assignment.) Instead of designing distinct characters for the walk cycle and final animation, students can save time by utilizing the same character design for more than one class requirement.</p>
+			<br class="clear">
+
 	</section>
 	
 	<section class="specific">
-		<h4 class="slateviolet" style="text-transform: uppercase;"><!--<i class="fas fa-water"></i> -->Specific</h4>
-		<p>Feedback for coursework is very specific to each students.</p><p>For me, feedback is a way of listening, and of paying attention; I believe it is one of the most important and caring thing we can do as instructors. This also helps to reitterate a learning partnership, rather than one of traditional exposition. </p><p>Examples of class feedback for Graphic Design for the Web available on this Padlet: <a href="https://padlet.com/katherinehubley/w27mee0zmiva7erk">Padlet for Fall 2021 UI Design Assignment &amp; Planning Feedback </a></p><p>For a larger context for the class, visit <a href="http://www.studyweb.technology">studyweb.technology,</a> where this Padlet, and other class resources and vidoes are linked. </p>
+		<div class="specificimg"><h4 class="slateviolet" style="font-family: calgary-script-ot, sans-serif;">Specific</h4></div>
+	  
+		<p>Specific and detailed feedback is provided for student assignments.</p><p>For me, feedback is a way of listening, and of paying attention; I believe it is one of the most important and caring thing we can do as instructors. This also helps to reitterate a learning partnership, rather than one of traditional exposition. </p><p>Examples of class feedback for Graphic Design for the Web available on this Padlet: <a href="https://padlet.com/katherinehubley/w27mee0zmiva7erk">Padlet for Fall 2021 UI Design Assignment &amp; Planning. </a></p><p>For a larger context for the class, visit <a href="http://www.studyweb.technology">studyweb.technology,</a> where this Padlet, and other class resources and vidoes are linked. </p>
+			<br class="clear">
+
 	</section>
 	
 
